@@ -1,7 +1,8 @@
 gdown
-tensorflow-cpu==2.15.0
+tensorflow==2.21.0
 streamlit==1.32.0
 numpy==1.26.4
 pillow==10.2.0
 scikit-learn==1.4.1.post1
 kagglehub
+keras==3.12.1
