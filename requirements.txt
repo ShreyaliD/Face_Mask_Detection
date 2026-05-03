@@ -1,7 +1,7 @@
-streamlit
-tensorflow-cpu==2.13.0
-numpy
-pillow
-scikit-learn
 gdown
-# force rebuild
+tensorflow-cpu==2.15.0
+streamlit==1.32.0
+numpy==1.26.4
+pillow==10.2.0
+scikit-learn==1.4.1
+kagglehub
