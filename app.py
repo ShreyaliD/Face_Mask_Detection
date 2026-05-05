@@ -310,9 +310,9 @@ def preprocess_image(image: Image.Image) -> np.ndarray:
 # ─────────────────────────────────────────
 st.markdown('<div class="upload-label">📤 Upload Image</div>', unsafe_allow_html=True)
 uploaded_file = st.file_uploader(
-    "200MB per file • JPG, PNG, JPEG",
+    "200MB • JPG, PNG, JPEG",
     type=["jpg", "jpeg", "png", "webp"],
-    label_visibility="collapsed",
+    label_visibility="visible",
 )
 
 # ─────────────────────────────────────────
