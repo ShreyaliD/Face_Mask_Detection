@@ -351,7 +351,8 @@ if uploaded_file is not None:
     # Left — Image
     with col1:
         st.markdown('<div class="img-panel anim">', unsafe_allow_html=True)
-        st.image(image, use_container_width=True)
+        image_resized = image.resize((280, 280))
+        st.image(image_resized)
         st.markdown('<div class="img-caption">Uploaded image</div>', unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
 
